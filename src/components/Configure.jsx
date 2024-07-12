@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Step3 = ({ formData }) => {
+const Configure = ({ formData }) => {
   return (
     <div>
       <h2 className="text-xl font-bold mb-4">Confirmation</h2>
@@ -21,4 +21,4 @@ const Step3 = ({ formData }) => {
   );
 };
 
-export default Step3;
+export default Configure;

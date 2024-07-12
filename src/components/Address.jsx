@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Step2 = ({ formData, setFormData, errors }) => {
+const Addresss = ({ formData, setFormData, errors }) => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
@@ -61,4 +61,4 @@ const Step2 = ({ formData, setFormData, errors }) => {
   );
 };
 
-export default Step2;
+export default Addresss;

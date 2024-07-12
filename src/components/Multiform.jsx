@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Step1 from "./Step1";
-import Step2 from "./Step2";
-import Step3 from "./Step3";
+import Step1 from "./Details";
+import Step2 from "./Address";
+import Step3 from "./Configure";
 import Swal from "sweetalert2";
 
 const MultiStepForm = () => {
